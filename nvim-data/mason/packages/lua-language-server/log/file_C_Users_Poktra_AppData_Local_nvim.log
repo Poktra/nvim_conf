@@ -1,0 +1,1044 @@
+[20:37:15.158][info] [#0:C:/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server\main.lua:66]: Lua Lsp startup, root: 	C:/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server
+[20:37:15.158][info] [#0:C:/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server\main.lua:67]: ROOT:	C:/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server
+[20:37:15.158][info] [#0:C:/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server\main.lua:68]: LOGPATH:	C:/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/log
+[20:37:15.158][info] [#0:C:/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server\main.lua:69]: METAPATH:	C:/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta
+[20:37:15.158][info] [#0:C:/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server\main.lua:70]: VERSION:	3.7.3
+[20:37:15.720][info] [#0:script\service\service.lua:144]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 2.181 MB
+        # 00 : 2.181 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[20:37:15.798][info] [#0:script\client.lua:657]: Client init	{
+  capabilities = {
+    textDocument = {
+      callHierarchy = {
+        dynamicRegistration = false
+      },
+      codeAction = {
+        codeActionLiteralSupport = {
+          codeActionKind = {
+            valueSet = { "", "quickfix", "refactor", "refactor.extract", "refactor.inline", "refactor.rewrite", "source", "source.organizeImports" }
+          }
+        },
+        dataSupport = true,
+        dynamicRegistration = false,
+        isPreferredSupport = true,
+        resolveSupport = {
+          properties = { "edit" }
+        }
+      },
+      completion = {
+        completionItem = {
+          commitCharactersSupport = true,
+          deprecatedSupport = true,
+          documentationFormat = { "markdown", "plaintext" },
+          insertReplaceSupport = true,
+          labelDetailsSupport = true,
+          preselectSupport = true,
+          resolveSupport = {
+            properties = { "documentation", "detail", "additionalTextEdits" }
+          },
+          snippetSupport = true,
+          tagSupport = {
+            valueSet = { 1 }
+          }
+        },
+        completionItemKind = {
+          valueSet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25 }
+        },
+        contextSupport = false,
+        dynamicRegistration = false
+      },
+      declaration = {
+        linkSupport = true
+      },
+      definition = {
+        linkSupport = true
+      },
+      documentHighlight = {
+        dynamicRegistration = false
+      },
+      documentSymbol = {
+        dynamicRegistration = false,
+        hierarchicalDocumentSymbolSupport = true,
+        symbolKind = {
+          valueSet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26 }
+        }
+      },
+      hover = {
+        contentFormat = { "markdown", "plaintext" },
+        dynamicRegistration = false
+      },
+      implementation = {
+        linkSupport = true
+      },
+      publishDiagnostics = {
+        relatedInformation = true,
+        tagSupport = {
+          valueSet = { 1, 2 }
+        }
+      },
+      references = {
+        dynamicRegistration = false
+      },
+      rename = {
+        dynamicRegistration = false,
+        prepareSupport = true
+      },
+      semanticTokens = {
+        augmentsSyntaxTokens = true,
+        dynamicRegistration = false,
+        formats = { "relative" },
+        multilineTokenSupport = false,
+        overlappingTokenSupport = true,
+        requests = {
+          full = {
+            delta = true
+          },
+          range = false
+        },
+        serverCancelSupport = false,
+        tokenModifiers = { "declaration", "definition", "readonly", "static", "deprecated", "abstract", "async", "modification", "documentation", "defaultLibrary" },
+        tokenTypes = { "namespace", "type", "class", "enum", "interface", "struct", "typeParameter", "parameter", "variable", "property", "enumMember", "event", "function", "method", "macro", "keyword", "modifier", "comment", "string", "number", "regexp", "operator", "decorator" }
+      },
+      signatureHelp = {
+        dynamicRegistration = false,
+        signatureInformation = {
+          activeParameterSupport = true,
+          documentationFormat = { "markdown", "plaintext" },
+          parameterInformation = {
+            labelOffsetSupport = true
+          }
+        }
+      },
+      synchronization = {
+        didSave = true,
+        dynamicRegistration = false,
+        willSave = true,
+        willSaveWaitUntil = true
+      },
+      typeDefinition = {
+        linkSupport = true
+      }
+    },
+    window = {
+      showDocument = {
+        support = true
+      },
+      showMessage = {
+        messageActionItem = {
+          additionalPropertiesSupport = false
+        }
+      },
+      workDoneProgress = true
+    },
+    workspace = {
+      applyEdit = true,
+      configuration = true,
+      didChangeWatchedFiles = {
+        dynamicRegistration = false,
+        relativePatternSupport = true
+      },
+      semanticTokens = {
+        refreshSupport = true
+      },
+      symbol = {
+        dynamicRegistration = false,
+        hierarchicalWorkspaceSymbolSupport = true,
+        symbolKind = {
+          valueSet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26 }
+        }
+      },
+      workspaceEdit = {
+        resourceOperations = { "rename", "create", "delete" }
+      },
+      workspaceFolders = true
+    }
+  },
+  clientInfo = {
+    name = "Neovim",
+    version = "0.9.4"
+  },
+  initializationOptions = {},
+  processId = 14976,
+  rootPath = "C:\\Users\\Poktra\\AppData\\Local\\nvim",
+  rootUri = "file:///C:/Users/Poktra/AppData/Local/nvim",
+  trace = "off",
+  workspaceFolders = { {
+      name = "C:/Users/Poktra/AppData/Local/nvim",
+      uri = "file:///C:/Users/Poktra/AppData/Local/nvim"
+    } }
+}
+[20:37:15.798][info] [#0:script\language.lua:137]: VSC language: nil
+[20:37:15.798][info] [#0:script\language.lua:138]: LS  language: en-us
+[20:37:15.798][info] [#0:script\workspace\workspace.lua:38]: Workspace init root: 	file:///C:/Users/Poktra/AppData/Local/nvim
+[20:37:15.798][info] [#0:script\workspace\workspace.lua:42]: Log path: 	C:/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/log/file_C_Users_Poktra_AppData_Local_nvim.log
+[20:37:15.814][info] [#0:script\workspace\workspace.lua:48]: Workspace create: 	file:///c%3A/Users/Poktra/AppData/Local/nvim
+[20:37:15.830][info] [#0:script\provider\provider.lua:46]: Load config from client	file:///c%3A/Users/Poktra/AppData/Local/nvim
+[20:37:15.830][info] [#0:script\provider\provider.lua:47]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    workspace = {
+      library = {
+        ["C:\\Program Files\\Neovim\\share\\nvim\\runtime\\lua"] = true,
+        ["C:\\Program Files\\Neovim\\share\\nvim\\runtime\\lua\\vim\\lsp"] = true,
+        ["C:\\Users\\Poktra\\AppData\\Local\\nvim-data/lazy/lazy.nvim/lua/lazy"] = true,
+        ["C:\\Users\\Poktra\\AppData\\Local\\nvim-data/lazy/ui/nvchad_types"] = true
+      },
+      maxPreload = 100000,
+      preloadFileSize = 10000
+    }
+  }
+}
+[20:37:15.830][info] [#0:script\provider\provider.lua:46]: Load config from client	file:///c%3A/Users/Poktra/AppData/Local/nvim
+[20:37:15.830][info] [#0:script\provider\provider.lua:47]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    workspace = {
+      library = {
+        ["C:\\Program Files\\Neovim\\share\\nvim\\runtime\\lua"] = true,
+        ["C:\\Program Files\\Neovim\\share\\nvim\\runtime\\lua\\vim\\lsp"] = true,
+        ["C:\\Users\\Poktra\\AppData\\Local\\nvim-data/lazy/lazy.nvim/lua/lazy"] = true,
+        ["C:\\Users\\Poktra\\AppData\\Local\\nvim-data/lazy/ui/nvchad_types"] = true
+      },
+      maxPreload = 100000,
+      preloadFileSize = 10000
+    }
+  }
+}
+[20:37:15.830][info] [#0:script\provider\provider.lua:46]: Load config from client	file:///c%3A/Users/Poktra/AppData/Local/nvim
+[20:37:15.830][info] [#0:script\provider\provider.lua:47]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    workspace = {
+      library = {
+        ["C:\\Program Files\\Neovim\\share\\nvim\\runtime\\lua"] = true,
+        ["C:\\Program Files\\Neovim\\share\\nvim\\runtime\\lua\\vim\\lsp"] = true,
+        ["C:\\Users\\Poktra\\AppData\\Local\\nvim-data/lazy/lazy.nvim/lua/lazy"] = true,
+        ["C:\\Users\\Poktra\\AppData\\Local\\nvim-data/lazy/ui/nvchad_types"] = true
+      },
+      maxPreload = 100000,
+      preloadFileSize = 10000
+    }
+  }
+}
+[20:37:15.830][info] [#0:script\provider\provider.lua:61]: Load config from client	fallback
+[20:37:15.830][info] [#0:script\provider\provider.lua:62]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    workspace = {
+      library = {
+        ["C:\\Program Files\\Neovim\\share\\nvim\\runtime\\lua"] = true,
+        ["C:\\Program Files\\Neovim\\share\\nvim\\runtime\\lua\\vim\\lsp"] = true,
+        ["C:\\Users\\Poktra\\AppData\\Local\\nvim-data/lazy/lazy.nvim/lua/lazy"] = true,
+        ["C:\\Users\\Poktra\\AppData\\Local\\nvim-data/lazy/ui/nvchad_types"] = true
+      },
+      maxPreload = 100000,
+      preloadFileSize = 10000
+    }
+  }
+}
+[20:37:15.830][info] [#0:script\provider\provider.lua:61]: Load config from client	fallback
+[20:37:15.830][info] [#0:script\provider\provider.lua:62]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    workspace = {
+      library = {
+        ["C:\\Program Files\\Neovim\\share\\nvim\\runtime\\lua"] = true,
+        ["C:\\Program Files\\Neovim\\share\\nvim\\runtime\\lua\\vim\\lsp"] = true,
+        ["C:\\Users\\Poktra\\AppData\\Local\\nvim-data/lazy/lazy.nvim/lua/lazy"] = true,
+        ["C:\\Users\\Poktra\\AppData\\Local\\nvim-data/lazy/ui/nvchad_types"] = true
+      },
+      maxPreload = 100000,
+      preloadFileSize = 10000
+    }
+  }
+}
+[20:37:15.939][info] [#0:script\library.lua:212]: Init builtin library at:	file:///c%3A/Users/Poktra/AppData/Local/nvim
+[20:37:16.251][info] [#0:script\plugin.lua:86]: plugin path:	C:\Users\Poktra\AppData\Local\nvim
+[20:37:16.251][warn] [#0:script\plugin.lua:101]: plugin not found:	C:\Users\Poktra\AppData\Local\nvim
+[20:37:16.251][info] [#0:script\library.lua:212]: Init builtin library at:	nil
+[20:37:16.298][info] [#0:script\provider\provider.lua:61]: Load config from client	fallback
+[20:37:16.298][info] [#0:script\provider\provider.lua:62]: {
+  Lua = {
+    diagnostics = {
+      globals = { "vim" }
+    },
+    workspace = {
+      library = {
+        ["C:\\Program Files\\Neovim\\share\\nvim\\runtime\\lua"] = true,
+        ["C:\\Program Files\\Neovim\\share\\nvim\\runtime\\lua\\vim\\lsp"] = true,
+        ["C:\\Users\\Poktra\\AppData\\Local\\nvim-data/lazy/lazy.nvim/lua/lazy"] = true,
+        ["C:\\Users\\Poktra\\AppData\\Local\\nvim-data/lazy/ui/nvchad_types"] = true
+      },
+      maxPreload = 100000,
+      preloadFileSize = 10000
+    }
+  }
+}
+[20:37:16.298][info] [#0:script\workspace\workspace.lua:324]: Preload start:	file:///c%3A/Users/Poktra/AppData/Local/nvim
+[20:37:16.314][info] [#0:script\workspace\workspace.lua:330]: Scan files at:	file:///c%3A/Users/Poktra/AppData/Local/nvim
+[20:37:16.314][info] [#0:script\workspace\workspace.lua:324]: Preload start:	<fallback>
+[20:37:16.314][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
+[20:37:16.330][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[20:37:16.330][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
+[20:37:16.330][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
+[20:37:16.330][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
+[20:37:16.330][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:16.330][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
+[20:37:16.330][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[20:37:16.330][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
+[20:37:16.330][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
+[20:37:16.330][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
+[20:37:16.330][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:16.330][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
+[20:37:16.345][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[20:37:16.345][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[20:37:16.345][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[20:37:16.345][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/ui/nvchad_types
+[20:37:16.345][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
+[20:37:16.345][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[20:37:16.345][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:16.345][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
+[20:37:16.345][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[20:37:16.345][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[20:37:16.345][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[20:37:16.345][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/ui/nvchad_types
+[20:37:16.345][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
+[20:37:16.345][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[20:37:16.345][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:16.361][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp
+[20:37:16.376][info] [#0:script\workspace\workspace.lua:353]: Scan library at:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp
+[20:37:16.486][info] [#0:script\workspace\workspace.lua:379]: Found 143 files at:	<fallback>
+[20:37:16.486][info] [#0:script\workspace\loading.lua:161]: Load files from disk:	<fallback>
+[20:37:16.486][info] [#0:script\workspace\workspace.lua:379]: Found 158 files at:	file:///c%3A/Users/Poktra/AppData/Local/nvim
+[20:37:16.486][info] [#0:script\workspace\loading.lua:161]: Load files from disk:	file:///c%3A/Users/Poktra/AppData/Local/nvim
+[20:37:16.595][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/buf.lua , size = 28.763 KB
+[20:37:16.611][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp
+[20:37:16.611][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/buf.lua
+[20:37:16.611][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/codelens.lua , size = 8.843 KB
+[20:37:16.626][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp
+[20:37:16.626][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/codelens.lua
+[20:37:16.626][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/diagnostic.lua , size = 9.157 KB
+[20:37:16.626][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp
+[20:37:16.626][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/diagnostic.lua
+[20:37:16.626][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/handlers.lua , size = 24.219 KB
+[20:37:16.642][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp
+[20:37:16.642][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/handlers.lua
+[20:37:16.642][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/health.lua , size = 1.283 KB
+[20:37:16.658][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp
+[20:37:16.658][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/health.lua
+[20:37:16.658][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/log.lua , size = 5.324 KB
+[20:37:16.658][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp
+[20:37:16.658][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/log.lua
+[20:37:16.658][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/protocol.lua , size = 29.243 KB
+[20:37:16.673][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp
+[20:37:16.673][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/protocol.lua
+[20:37:16.673][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/rpc.lua , size = 24.434 KB
+[20:37:16.689][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp
+[20:37:16.689][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/rpc.lua
+[20:37:16.689][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua , size = 26.716 KB
+[20:37:16.705][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp
+[20:37:16.705][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua
+[20:37:16.705][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/sync.lua , size = 16.120 KB
+[20:37:16.720][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp
+[20:37:16.720][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/sync.lua
+[20:37:16.720][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/tagfunc.lua , size = 2.414 KB
+[20:37:16.720][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp
+[20:37:16.720][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/tagfunc.lua
+[20:37:16.720][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/types.lua , size = 0.960 KB
+[20:37:16.720][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp
+[20:37:16.720][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/types.lua
+[20:37:16.720][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/util.lua , size = 72.870 KB
+[20:37:16.767][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp
+[20:37:16.767][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/util.lua
+[20:37:16.767][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/_snippet.lua , size = 11.232 KB
+[20:37:16.783][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp
+[20:37:16.783][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/_snippet.lua
+[20:37:16.783][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/_watchfiles.lua , size = 9.997 KB
+[20:37:16.798][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp
+[20:37:16.798][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/_watchfiles.lua
+[20:37:16.798][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/editorconfig.lua , size = 7.738 KB
+[20:37:16.798][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:16.798][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/editorconfig.lua
+[20:37:16.798][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/bc.lua , size = 5.417 KB
+[20:37:16.814][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:16.814][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/bc.lua
+[20:37:16.814][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/bcsave.lua , size = 19.096 KB
+[20:37:16.830][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:16.830][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/bcsave.lua
+[20:37:16.830][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/dis_arm.lua , size = 18.891 KB
+[20:37:16.845][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:16.845][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/dis_arm.lua
+[20:37:16.845][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/dis_arm64.lua , size = 30.163 KB
+[20:37:16.861][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:16.861][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/dis_arm64.lua
+[20:37:16.861][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/dis_arm64be.lua , size = 0.604 KB
+[20:37:16.861][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:16.861][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/dis_arm64be.lua
+[20:37:16.861][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/dis_mips.lua , size = 21.494 KB
+[20:37:16.876][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:16.876][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/dis_mips.lua
+[20:37:16.876][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/dis_mips64.lua , size = 0.689 KB
+[20:37:16.876][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:16.876][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/dis_mips64.lua
+[20:37:16.876][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/dis_mips64el.lua , size = 0.700 KB
+[20:37:16.876][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:16.876][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/dis_mips64el.lua
+[20:37:16.876][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/dis_mips64r6.lua , size = 0.700 KB
+[20:37:16.876][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:16.876][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/dis_mips64r6.lua
+[20:37:16.876][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/dis_mips64r6el.lua , size = 0.711 KB
+[20:37:16.876][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:16.876][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/dis_mips64r6el.lua
+[20:37:16.876][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/dis_mipsel.lua , size = 0.698 KB
+[20:37:16.876][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:16.876][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/dis_mipsel.lua
+[20:37:16.876][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/dis_ppc.lua , size = 19.825 KB
+[20:37:16.908][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:16.908][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/dis_ppc.lua
+[20:37:16.908][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/dis_x64.lua , size = 0.695 KB
+[20:37:16.908][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:16.908][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/dis_x64.lua
+[20:37:16.908][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/dis_x86.lua , size = 33.033 KB
+[20:37:16.939][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:16.939][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/dis_x86.lua
+[20:37:16.939][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/dump.lua , size = 20.130 KB
+[20:37:16.955][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:16.955][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/dump.lua
+[20:37:16.955][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/p.lua , size = 8.891 KB
+[20:37:16.955][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:16.955][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/p.lua
+[20:37:16.955][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/v.lua , size = 5.576 KB
+[20:37:16.955][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:16.955][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/v.lua
+[20:37:16.955][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/vmdef.lua , size = 8.307 KB
+[20:37:16.955][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:16.955][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/vmdef.lua
+[20:37:16.955][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/zone.lua , size = 0.979 KB
+[20:37:16.970][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:16.970][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/jit/zone.lua
+[20:37:16.970][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/man.lua , size = 25.932 KB
+[20:37:16.986][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:16.986][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/man.lua
+[20:37:16.986][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/nvim/health.lua , size = 13.105 KB
+[20:37:16.986][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:16.986][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/nvim/health.lua
+[20:37:16.986][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/diagnostic.lua , size = 58.342 KB
+[20:37:17.017][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.017][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/diagnostic.lua
+[20:37:17.017][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/F.lua , size = 0.871 KB
+[20:37:17.017][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.017][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/F.lua
+[20:37:17.017][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/filetype/detect.lua , size = 49.296 KB
+[20:37:17.064][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.064][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/filetype/detect.lua
+[20:37:17.064][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/filetype/options.lua , size = 2.646 KB
+[20:37:17.080][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.080][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/filetype/options.lua
+[20:37:17.080][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/filetype.lua , size = 77.000 KB
+[20:37:17.111][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.111][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/filetype.lua
+[20:37:17.111][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/fs.lua , size = 11.048 KB
+[20:37:17.126][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.126][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/fs.lua
+[20:37:17.126][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/health.lua , size = 1.858 KB
+[20:37:17.126][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.126][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/health.lua
+[20:37:17.126][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/highlight.lua , size = 3.876 KB
+[20:37:17.126][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.126][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/highlight.lua
+[20:37:17.126][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/inspect.lua , size = 9.234 KB
+[20:37:17.126][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.126][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/inspect.lua
+[20:37:17.126][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/keymap.lua , size = 3.687 KB
+[20:37:17.142][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.142][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/keymap.lua
+[20:37:17.142][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/loader.lua , size = 16.706 KB
+[20:37:17.158][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/loader.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/buf.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/buf.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/codelens.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/codelens.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/diagnostic.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/diagnostic.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/handlers.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/handlers.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/health.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/health.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/log.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/log.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/protocol.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/protocol.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/rpc.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/rpc.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/sync.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/tagfunc.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/sync.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/tagfunc.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/types.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/types.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/util.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/util.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/_snippet.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/_snippet.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/_watchfiles.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp/_watchfiles.lua
+[20:37:17.158][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp.lua , size = 84.707 KB
+[20:37:17.189][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.189][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/lsp.lua
+[20:37:17.189][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/secure.lua , size = 5.014 KB
+[20:37:17.189][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.189][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/secure.lua
+[20:37:17.189][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/shared.lua , size = 23.084 KB
+[20:37:17.205][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.205][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/shared.lua
+[20:37:17.205][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/treesitter/health.lua , size = 0.920 KB
+[20:37:17.205][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.205][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/treesitter/health.lua
+[20:37:17.205][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/treesitter/highlighter.lua , size = 9.114 KB
+[20:37:17.220][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.220][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/treesitter/highlighter.lua
+[20:37:17.220][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/treesitter/language.lua , size = 3.703 KB
+[20:37:17.220][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.220][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/treesitter/language.lua
+[20:37:17.220][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/treesitter/languagetree.lua , size = 28.634 KB
+[20:37:17.236][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.236][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/treesitter/languagetree.lua
+[20:37:17.236][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/treesitter/playground.lua , size = 12.990 KB
+[20:37:17.283][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.283][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/treesitter/playground.lua
+[20:37:17.283][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua , size = 21.953 KB
+[20:37:17.283][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.283][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/treesitter/query.lua
+[20:37:17.283][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/treesitter/_fold.lua , size = 8.509 KB
+[20:37:17.298][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.298][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/treesitter/_fold.lua
+[20:37:17.298][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/treesitter/_meta.lua , size = 2.905 KB
+[20:37:17.298][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.298][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/treesitter/_meta.lua
+[20:37:17.298][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/treesitter/_range.lua , size = 3.814 KB
+[20:37:17.298][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.298][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/treesitter/_range.lua
+[20:37:17.298][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua , size = 15.722 KB
+[20:37:17.314][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.314][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua
+[20:37:17.314][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/ui.lua , size = 3.776 KB
+[20:37:17.314][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.314][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/ui.lua
+[20:37:17.314][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/uri.lua , size = 3.510 KB
+[20:37:17.314][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.314][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/uri.lua
+[20:37:17.314][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/version.lua , size = 12.554 KB
+[20:37:17.314][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.314][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/version.lua
+[20:37:17.314][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/_editor.lua , size = 30.314 KB
+[20:37:17.330][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.330][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/_editor.lua
+[20:37:17.330][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/_init_packages.lua , size = 2.861 KB
+[20:37:17.330][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.330][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/_init_packages.lua
+[20:37:17.330][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/_inspector.lua , size = 8.159 KB
+[20:37:17.345][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.345][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/_inspector.lua
+[20:37:17.345][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/_options.lua , size = 12.791 KB
+[20:37:17.345][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.345][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/_options.lua
+[20:37:17.345][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/_watch.lua , size = 5.564 KB
+[20:37:17.345][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.345][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/vim/_watch.lua
+[20:37:17.345][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/_vim9script.lua , size = 16.074 KB
+[20:37:17.361][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua
+[20:37:17.361][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua , size = 2.386 KB
+[20:37:17.361][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[20:37:17.361][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Program%20Files/Neovim/share/nvim/runtime/lua/_vim9script.lua
+[20:37:17.361][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[20:37:17.361][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua , size = 4.230 KB
+[20:37:17.361][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
+[20:37:17.361][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
+[20:37:17.361][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/ui/nvchad_types/all_hl_groups.lua , size = 41.464 KB
+[20:37:17.376][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/ui/nvchad_types
+[20:37:17.376][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/ui/nvchad_types/all_hl_groups.lua
+[20:37:17.376][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/ui/nvchad_types/base46.lua , size = 7.880 KB
+[20:37:17.376][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/ui/nvchad_types
+[20:37:17.376][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/ui/nvchad_types/base46.lua
+[20:37:17.376][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/ui/nvchad_types/chadrc.lua , size = 8.957 KB
+[20:37:17.392][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/ui/nvchad_types
+[20:37:17.392][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/ui/nvchad_types/chadrc.lua
+[20:37:17.392][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/ui/nvchad_types/keymaps.lua , size = 1.489 KB
+[20:37:17.392][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/ui/nvchad_types
+[20:37:17.392][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/ui/nvchad_types/keymaps.lua
+[20:37:17.392][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/ui/nvchad_types/plugins.lua , size = 5.808 KB
+[20:37:17.392][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/ui/nvchad_types
+[20:37:17.392][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/ui/nvchad_types/plugins.lua
+[20:37:17.392][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/ui/nvchad_types/themes.lua , size = 4.896 KB
+[20:37:17.392][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/ui/nvchad_types
+[20:37:17.392][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua , size = 2.590 KB
+[20:37:17.392][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[20:37:17.392][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/ui/nvchad_types/themes.lua
+[20:37:17.392][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[20:37:17.392][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua , size = 0.302 KB
+[20:37:17.392][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[20:37:17.392][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[20:37:17.392][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua , size = 7.637 KB
+[20:37:17.392][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[20:37:17.392][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua , size = 5.600 KB
+[20:37:17.408][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
+[20:37:17.408][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[20:37:17.408][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
+[20:37:17.408][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/cache.lua , size = 17.115 KB
+[20:37:17.408][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.408][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/cache.lua
+[20:37:17.408][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/config.lua , size = 9.137 KB
+[20:37:17.408][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.408][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/config.lua
+[20:37:17.408][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua , size = 1.702 KB
+[20:37:17.423][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.423][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua
+[20:37:17.423][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/handler/event.lua , size = 5.023 KB
+[20:37:17.423][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.423][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/handler/event.lua
+[20:37:17.423][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/handler/ft.lua , size = 0.467 KB
+[20:37:17.423][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.423][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/handler/ft.lua
+[20:37:17.423][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/handler/init.lua , size = 3.262 KB
+[20:37:17.423][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.423][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/handler/init.lua
+[20:37:17.423][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/handler/keys.lua , size = 4.771 KB
+[20:37:17.423][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.423][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/handler/keys.lua
+[20:37:17.423][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/loader.lua , size = 14.226 KB
+[20:37:17.439][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.439][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/loader.lua
+[20:37:17.439][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/plugin.lua , size = 17.551 KB
+[20:37:17.455][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.455][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/plugin.lua
+[20:37:17.455][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/util.lua , size = 11.104 KB
+[20:37:17.455][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.455][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/util.lua
+[20:37:17.455][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/docs.lua , size = 4.609 KB
+[20:37:17.455][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.455][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/docs.lua
+[20:37:17.455][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/example.lua , size = 2.728 KB
+[20:37:17.455][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.455][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/example.lua
+[20:37:17.455][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/health.lua , size = 3.449 KB
+[20:37:17.470][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.470][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/health.lua
+[20:37:17.470][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/help.lua , size = 2.311 KB
+[20:37:17.470][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.470][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/help.lua
+[20:37:17.470][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/init.lua , size = 3.862 KB
+[20:37:17.470][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.470][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/init.lua
+[20:37:17.470][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/manage/checker.lua , size = 2.398 KB
+[20:37:17.470][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.470][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/manage/checker.lua
+[20:37:17.470][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/manage/git.lua , size = 6.273 KB
+[20:37:17.470][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.470][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/manage/git.lua
+[20:37:17.470][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/manage/init.lua , size = 5.709 KB
+[20:37:17.486][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.486][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/manage/init.lua
+[20:37:17.486][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/manage/lock.lua , size = 1.882 KB
+[20:37:17.486][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.486][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/manage/lock.lua
+[20:37:17.486][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/manage/process.lua , size = 4.183 KB
+[20:37:17.486][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.486][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/manage/process.lua
+[20:37:17.486][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/manage/reloader.lua , size = 2.580 KB
+[20:37:17.486][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.486][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/manage/reloader.lua
+[20:37:17.486][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/manage/runner.lua , size = 4.528 KB
+[20:37:17.533][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.533][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/manage/runner.lua
+[20:37:17.533][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/manage/semver.lua , size = 4.596 KB
+[20:37:17.533][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.533][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/manage/semver.lua
+[20:37:17.533][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/manage/task/fs.lua , size = 0.771 KB
+[20:37:17.533][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.533][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/manage/task/fs.lua
+[20:37:17.533][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/manage/task/git.lua , size = 8.280 KB
+[20:37:17.533][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.533][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/manage/task/git.lua
+[20:37:17.533][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/manage/task/init.lua , size = 3.988 KB
+[20:37:17.548][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.548][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/manage/task/init.lua
+[20:37:17.548][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/manage/task/plugin.lua , size = 2.472 KB
+[20:37:17.548][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.548][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/manage/task/plugin.lua
+[20:37:17.548][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/state.lua , size = 0.903 KB
+[20:37:17.548][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.548][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/state.lua
+[20:37:17.548][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/stats.lua , size = 2.149 KB
+[20:37:17.548][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.548][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/stats.lua
+[20:37:17.548][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/status.lua , size = 0.368 KB
+[20:37:17.548][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.548][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/status.lua
+[20:37:17.548][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/types.lua , size = 3.310 KB
+[20:37:17.548][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.548][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/types.lua
+[20:37:17.548][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/util.lua , size = 6.006 KB
+[20:37:17.548][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.548][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/util.lua
+[20:37:17.548][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/view/colors.lua , size = 1.589 KB
+[20:37:17.548][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.548][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/view/colors.lua
+[20:37:17.548][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/view/commands.lua , size = 3.522 KB
+[20:37:17.564][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.564][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/view/commands.lua
+[20:37:17.564][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/view/config.lua , size = 3.617 KB
+[20:37:17.564][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.564][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/view/config.lua
+[20:37:17.564][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/view/diff.lua , size = 1.647 KB
+[20:37:17.564][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.564][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/view/diff.lua
+[20:37:17.564][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/view/float.lua , size = 7.272 KB
+[20:37:17.564][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.564][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/view/float.lua
+[20:37:17.564][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/view/init.lua , size = 7.775 KB
+[20:37:17.580][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.580][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/view/init.lua
+[20:37:17.580][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/view/render.lua , size = 21.877 KB
+[20:37:17.595][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.595][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/view/render.lua
+[20:37:17.595][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/view/sections.lua , size = 2.475 KB
+[20:37:17.595][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.595][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/view/sections.lua
+[20:37:17.595][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/view/text.lua , size = 3.987 KB
+[20:37:17.595][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy
+[20:37:17.595][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua , size = 2.944 KB
+[20:37:17.595][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
+[20:37:17.595][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/view/text.lua
+[20:37:17.595][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
+[20:37:17.595][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua , size = 8.509 KB
+[20:37:17.595][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
+[20:37:17.595][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua , size = 6.341 KB
+[20:37:17.611][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
+[20:37:17.611][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
+[20:37:17.611][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
+[20:37:17.611][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua , size = 15.377 KB
+[20:37:17.611][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[20:37:17.611][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[20:37:17.611][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua , size = 6.364 KB
+[20:37:17.611][info] [#0:script\workspace\loading.lua:113]: ++++As library of:	file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
+[20:37:17.611][info] [#0:script\workspace\loading.lua:98]: Skip loaded file: file:///c%3A/Users/Poktra/AppData/Local/nvim-data/mason/packages/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
+[20:37:17.611][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim/init.lua , size = 0.521 KB
+[20:37:17.611][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim/lua/core/default_config.lua , size = 3.191 KB
+[20:37:17.611][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim/lua/core/init.lua , size = 3.571 KB
+[20:37:17.626][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim/lua/core/mappings.lua , size = 10.749 KB
+[20:37:17.626][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim/lua/core/utils.lua , size = 3.570 KB
+[20:37:17.626][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim/lua/core/bootstrap.lua , size = 1.866 KB
+[20:37:17.626][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim/lua/plugins/configs/cmp.lua , size = 3.182 KB
+[20:37:17.626][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim/lua/plugins/configs/lazy_nvim.lua , size = 0.868 KB
+[20:37:17.626][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim/lua/plugins/configs/mason.lua , size = 0.608 KB
+[20:37:17.626][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim/lua/plugins/configs/lspconfig.lua , size = 1.805 KB
+[20:37:17.626][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim/lua/plugins/configs/nvimtree.lua , size = 1.554 KB
+[20:37:17.626][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim/lua/plugins/configs/others.lua , size = 1.685 KB
+[20:37:17.626][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim/lua/plugins/configs/treesitter.lua , size = 0.177 KB
+[20:37:17.626][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim/lua/plugins/init.lua , size = 7.504 KB
+[20:37:17.642][info] [#0:script\workspace\loading.lua:101]: Preload file at: file:///c%3A/Users/Poktra/AppData/Local/nvim/lua/plugins/configs/telescope.lua , size = 1.856 KB
+[20:37:17.751][info] [#0:script\workspace\loading.lua:173]: Loaded files takes [1.257] sec: <fallback>
+[20:37:17.751][info] [#0:script\workspace\loading.lua:182]: Compile files takes [0.000] sec: <fallback>
+[20:37:17.751][info] [#0:script\workspace\loading.lua:183]: Loaded finish:	<fallback>
+[20:37:17.751][info] [#0:script\workspace\workspace.lua:381]: Preload finish at:	<fallback>
+[20:37:17.751][info] [#0:script\workspace\loading.lua:173]: Loaded files takes [1.272] sec: file:///c%3A/Users/Poktra/AppData/Local/nvim
+[20:37:17.751][info] [#0:script\workspace\loading.lua:182]: Compile files takes [0.000] sec: file:///c%3A/Users/Poktra/AppData/Local/nvim
+[20:37:17.751][info] [#0:script\workspace\loading.lua:183]: Loaded finish:	file:///c%3A/Users/Poktra/AppData/Local/nvim
+[20:37:17.751][info] [#0:script\workspace\workspace.lua:381]: Preload finish at:	file:///c%3A/Users/Poktra/AppData/Local/nvim
+[20:37:17.798][warn] [#0:script\proto\proto.lua:190]: Method [textDocument/didOpen] takes [1.968]sec. {
+  jsonrpc = "2.0",
+  method = "textDocument/didOpen",
+  params = {
+    textDocument = {
+      languageId = "lua",
+      text = '"***"',
+      uri = "file:///C:/Users/Poktra/AppData/Local/nvim/lua/custom/plugins.lua",
+      version = 0
+    }
+  }
+}
+[20:37:17.798][info] [#0:script\provider\diagnostic.lua:557]: Diagnostics scope [file:///c%3A/Users/Poktra/AppData/Local/nvim], files count:[144]
+[20:37:18.236][info] [#0:script\provider\diagnostic.lua:574]: Diagnostics scope [file:///c%3A/Users/Poktra/AppData/Local/nvim] finished, takes [0.443] sec.
+[20:47:15.251][info] [#0:script\service\service.lua:144]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 80.366 MB
+        # 00 : 79.878 MB
+        # 01 : 0.053 MB
+        # 02 : 0.053 MB
+        # 03 : 0.180 MB
+        # 04 : 0.202 MB
+    --------------- Coroutine ---------------
+        Total:     1
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      1
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[20:57:15.251][info] [#0:script\service\service.lua:144]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 81.180 MB
+        # 00 : 80.692 MB
+        # 01 : 0.053 MB
+        # 02 : 0.053 MB
+        # 03 : 0.180 MB
+        # 04 : 0.202 MB
+    --------------- Coroutine ---------------
+        Total:     1
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      1
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[21:07:15.564][info] [#0:script\service\service.lua:144]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 81.997 MB
+        # 00 : 81.509 MB
+        # 01 : 0.053 MB
+        # 02 : 0.053 MB
+        # 03 : 0.180 MB
+        # 04 : 0.202 MB
+    --------------- Coroutine ---------------
+        Total:     1
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      1
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[21:17:15.580][info] [#0:script\service\service.lua:144]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 82.810 MB
+        # 00 : 82.322 MB
+        # 01 : 0.053 MB
+        # 02 : 0.053 MB
+        # 03 : 0.180 MB
+        # 04 : 0.202 MB
+    --------------- Coroutine ---------------
+        Total:     1
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      1
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[21:27:16.017][info] [#0:script\service\service.lua:144]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 83.626 MB
+        # 00 : 83.138 MB
+        # 01 : 0.053 MB
+        # 02 : 0.053 MB
+        # 03 : 0.180 MB
+        # 04 : 0.202 MB
+    --------------- Coroutine ---------------
+        Total:     1
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      1
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[21:37:16.064][info] [#0:script\service\service.lua:144]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 84.440 MB
+        # 00 : 83.952 MB
+        # 01 : 0.053 MB
+        # 02 : 0.053 MB
+        # 03 : 0.180 MB
+        # 04 : 0.202 MB
+    --------------- Coroutine ---------------
+        Total:     1
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      1
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[21:43:33.673][info] [#0:script\provider\diagnostic.lua:557]: Diagnostics scope [file:///c%3A/Users/Poktra/AppData/Local/nvim], files count:[145]
+[21:43:33.861][info] [#0:script\provider\diagnostic.lua:574]: Diagnostics scope [file:///c%3A/Users/Poktra/AppData/Local/nvim] finished, takes [0.185] sec.
+[21:43:58.939][info] [#0:script\provider\diagnostic.lua:557]: Diagnostics scope [file:///c%3A/Users/Poktra/AppData/Local/nvim], files count:[146]
+[21:43:59.095][info] [#0:script\provider\diagnostic.lua:574]: Diagnostics scope [file:///c%3A/Users/Poktra/AppData/Local/nvim] finished, takes [0.162] sec.
+[21:45:21.798][info] [#0:script\provider\diagnostic.lua:557]: Diagnostics scope [file:///c%3A/Users/Poktra/AppData/Local/nvim], files count:[147]
+[21:45:21.970][info] [#0:script\provider\diagnostic.lua:574]: Diagnostics scope [file:///c%3A/Users/Poktra/AppData/Local/nvim] finished, takes [0.161] sec.
+[21:45:35.939][info] [#0:script\provider\diagnostic.lua:557]: Diagnostics scope [file:///c%3A/Users/Poktra/AppData/Local/nvim], files count:[148]
+[21:45:36.111][info] [#0:script\provider\diagnostic.lua:574]: Diagnostics scope [file:///c%3A/Users/Poktra/AppData/Local/nvim] finished, takes [0.164] sec.
+[21:47:16.705][info] [#0:script\service\service.lua:144]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 79.877 MB
+        # 00 : 79.389 MB
+        # 01 : 0.053 MB
+        # 02 : 0.053 MB
+        # 03 : 0.180 MB
+        # 04 : 0.202 MB
+    --------------- Coroutine ---------------
+        Total:     1
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      1
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[21:57:16.720][info] [#0:script\service\service.lua:144]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 80.692 MB
+        # 00 : 80.204 MB
+        # 01 : 0.053 MB
+        # 02 : 0.053 MB
+        # 03 : 0.180 MB
+        # 04 : 0.202 MB
+    --------------- Coroutine ---------------
+        Total:     1
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      1
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[22:07:17.470][info] [#0:script\service\service.lua:144]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 81.509 MB
+        # 00 : 81.021 MB
+        # 01 : 0.053 MB
+        # 02 : 0.053 MB
+        # 03 : 0.180 MB
+        # 04 : 0.202 MB
+    --------------- Coroutine ---------------
+        Total:     1
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      1
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[22:17:17.564][info] [#0:script\service\service.lua:144]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 82.323 MB
+        # 00 : 81.835 MB
+        # 01 : 0.053 MB
+        # 02 : 0.053 MB
+        # 03 : 0.180 MB
+        # 04 : 0.202 MB
+    --------------- Coroutine ---------------
+        Total:     1
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      1
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[22:27:17.658][info] [#0:script\service\service.lua:144]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 83.137 MB
+        # 00 : 82.649 MB
+        # 01 : 0.053 MB
+        # 02 : 0.053 MB
+        # 03 : 0.180 MB
+        # 04 : 0.202 MB
+    --------------- Coroutine ---------------
+        Total:     1
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      1
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[22:28:40.767][info] [#0:script\provider\provider.lua:169]: Server shutdown.
